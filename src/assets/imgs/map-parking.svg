@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="334" viewBox="0 0 280 334">
+    <g fill="none" fill-rule="nonzero">
+        <rect width="32" height="14" x="230" y="68" fill="#FCD5A0" rx="2"/>
+        <rect width="32" height="14" x="162" y="104" fill="#D6DCE0" rx="2"/>
+        <rect width="32" height="14" x="230" y="158" fill="#D6DCE0" rx="2"/>
+        <rect width="32" height="14" x="162" y="194" fill="#D6DCE0" rx="2"/>
+        <rect width="32" height="14" x="230" y="248" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="230" y="104" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="162" y="140" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="230" y="194" fill="#D6DCE0" rx="2"/>
+        <rect width="32" height="14" x="162" y="230" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="230" y="284" fill="#D6DCE0" rx="2"/>
+        <rect width="32" height="14" x="230" y="86" fill="#FCD5A0" rx="2"/>
+        <rect width="32" height="14" x="162" y="122" fill="#D6DCE0" rx="2"/>
+        <rect width="32" height="14" x="230" y="176" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="162" y="212" fill="#D6DCE0" rx="2"/>
+        <rect width="32" height="14" x="230" y="266" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="230" y="122" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="162" y="158" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="230" y="212" fill="#D6DCE0" rx="2"/>
+        <rect width="32" height="14" x="162" y="248" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="230" y="302" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="230" y="140" fill="#D6DCE0" rx="2"/>
+        <rect width="32" height="14" x="162" y="176" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="230" y="230" fill="#5979FF" rx="2"/>
+        <rect width="32" height="14" x="162" y="266" fill="#D6DCE0" rx="2"/>
+        <rect width="32" height="14" x="230" y="320" fill="#D6DCE0" rx="2"/>
+        <path fill="#FFF" stroke="#D6DCE0" d="M193.5 70a1.5 1.5 0 0 0-1.5-1.5h-10a1.5 1.5 0 0 0-1.5 1.5v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V70zM103.5 70a1.5 1.5 0 0 0-1.5-1.5H92a1.5 1.5 0 0 0-1.5 1.5v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V70zM157.5 70a1.5 1.5 0 0 0-1.5-1.5h-10a1.5 1.5 0 0 0-1.5 1.5v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V70z"/>
+        <path fill="#5979FF" d="M68 70v28a2 2 0 0 1-2 2H56a2 2 0 0 1-2-2V70a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+        <path fill="#FFF" stroke="#D6DCE0" d="M175.5 70a1.5 1.5 0 0 0-1.5-1.5h-10a1.5 1.5 0 0 0-1.5 1.5v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V70zM85.5 70a1.5 1.5 0 0 0-1.5-1.5H74a1.5 1.5 0 0 0-1.5 1.5v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V70zM139.5 70a1.5 1.5 0 0 0-1.5-1.5h-10a1.5 1.5 0 0 0-1.5 1.5v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V70z"/>
+        <path fill="#D6DCE0" d="M50 70v28a2 2 0 0 1-2 2H38a2 2 0 0 1-2-2V70a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+        <path fill="#FFF" stroke="#D6DCE0" d="M121.5 70a1.5 1.5 0 0 0-1.5-1.5h-10a1.5 1.5 0 0 0-1.5 1.5v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V70z"/>
+        <path fill="#D6DCE0" d="M32 70v28a2 2 0 0 1-2 2H20a2 2 0 0 1-2-2V70a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2zM169 2v28a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2zM133 2v28a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+        <path fill="#5979FF" d="M151 2v28a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+        <path fill="#FFF" stroke="#D6DCE0" d="M114.5 2A1.5 1.5 0 0 0 113 .5h-10a1.5 1.5 0 0 0-1.5 1.5v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V2zM96.5 2A1.5 1.5 0 0 0 95 .5H85A1.5 1.5 0 0 0 83.5 2v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V2zM261.5 2A1.5 1.5 0 0 0 260 .5h-10a1.5 1.5 0 0 0-1.5 1.5v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V2zM279.5 2A1.5 1.5 0 0 0 278 .5h-10a1.5 1.5 0 0 0-1.5 1.5v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V2zM31.5 2A1.5 1.5 0 0 0 30 .5H20A1.5 1.5 0 0 0 18.5 2v28a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V2zM13.5 2A1.5 1.5 0 0 0 12 .5H2A1.5 1.5 0 0 0 .5 2v28A1.5 1.5 0 0 0 2 31.5h10a1.5 1.5 0 0 0 1.5-1.5V2z"/>
+    </g>
+</svg>
