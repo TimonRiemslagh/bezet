@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {NavController} from "ionic-angular";
+import {InstellingenPage} from "../instellingen/instellingen";
 
 @Component({
     selector: 'page-toilet',
@@ -15,7 +16,12 @@ export class ToiletPage {
     }
 
     goBack() {
+        console.log('test');
         this.navCtrl.pop();
+    }
+
+    goToSettings() {
+        this.navCtrl.push(InstellingenPage);
     }
 
     selectAll() {

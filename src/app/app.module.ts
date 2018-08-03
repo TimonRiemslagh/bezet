@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ParkerenPage } from "../pages/parkeren/parkeren";
 import { ToiletPage } from "../pages/toilet/toilet";
+import { InstellingenPage } from "../pages/instellingen/instellingen";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ParkerenPage,
-    ToiletPage
+    ToiletPage,
+    InstellingenPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { ToiletPage } from "../pages/toilet/toilet";
     MyApp,
     HomePage,
     ParkerenPage,
-    ToiletPage
+    ToiletPage,
+    InstellingenPage
   ],
   providers: [
     StatusBar,
