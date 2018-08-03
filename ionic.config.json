@@ -1,0 +1,7 @@
+{
+  "name": "bezet",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
