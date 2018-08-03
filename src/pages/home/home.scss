@@ -35,6 +35,7 @@ p {
     background-origin: border-box;
     background-clip: content-box, border-box;
     padding: 16px;
+    margin-bottom: 40px;
 }
 
 .c-widget--blue {
@@ -43,7 +44,7 @@ p {
 }
 
 .c-widget--orange {
-    background: radial-gradient(circle at 98% 2%, #fdd194, #fe9f8e), linear-gradient(to bottom, rgba(254, 118, 134, 0), #fe7686);
+    background: radial-gradient(circle at 100% 0, #fcd5a0, #ff7c7e), linear-gradient(to bottom, rgba(255, 81, 101, 0), #ff5165);
     box-shadow: 0px 18px 55px -15px rgba(255,124,126,1);
 }
 
@@ -215,8 +216,65 @@ a {
     }
 }
 
+.toilet-select-wrapper {
+    border: solid 1px #d6dce0;
+    border-radius: 15.5px;
+    background-color: white;
+    margin-top: 15px;
+}
+
 .toilet-select {
     background-color: white;
     border-radius: 15.5px;
-    border: solid 1px #d6dce0;
+    padding: 5px 15px;
+    color: #566f7e;
+    text-transform: uppercase;
+
+    &, &.active, &.visited, &.focus, &.hover {
+        color: #566f7e;
+    }
+
+    &.active {
+        border: solid 1px #566f7e;
+    }
+}
+
+.c-table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-left {
+    text-align: left;
+}
+
+td, th {
+    padding: 10px 0;
+}
+
+th {
+    border-bottom: 1px solid #d6dce0;
+}
+
+td {
+    border-bottom: 1px solid #f0f1f2;
+}
+
+.brick {
+    border-radius: 2px;
+    width: 14px;
+    height: 32px;
+    display: inline-block;
+}
+
+.brick-gray {
+    background-color: #d6dce0;
+}
+
+.brick-orange {
+    background-color: #ff7c7e;
+}
+
+.text-center {
+    text-align: center;
 }

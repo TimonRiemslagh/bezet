@@ -16,10 +16,10 @@
 
                 <h1>toilet</h1>
 
-                <div class="o-flex o-flex-align-center">
-                    <a class="toilet-select" (click)="test()">allemaal</a>
-                    <a class="toilet-select" href="">mannen</a>
-                    <a class="toilet-select" href="">vrouwen</a>
+                <div class="o-flex o-flex-align-center o-flex-between toilet-select-wrapper">
+                    <a class="toilet-select active" (click)="selectAll()">allemaal</a>
+                    <a class="toilet-select" (click)="selectMan()">mannen</a>
+                    <a class="toilet-select" (click)="selectWoman()">vrouwen</a>
                 </div>
             </div>
         </div>
@@ -40,5 +40,56 @@
             </div>
         </div>
     </div>
+
+
+    <table class="c-table">
+        <tr>
+            <th class="text-left">verdieping</th>
+            <th *ngIf="male"><img src="assets/imgs/icon-male.svg" alt=""></th>
+            <th *ngIf="female"><img src="assets/imgs/icon-female.svg" alt=""></th>
+        </tr>
+        <tr >
+            <td>
+                <p class="circle circle--gray">
+                    2
+                </p>
+            </td>
+            <td class="text-center" *ngIf="male">
+                <span class="brick brick-gray"></span>
+            </td>
+            <td class="text-center" *ngIf="female">
+                <span class="brick brick-orange"></span>
+                <span class="brick brick-gray"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="circle circle--gray">
+                    1
+                </p>
+            </td>
+            <td class="text-center" *ngIf="male">
+                <span class="brick brick-gray"></span>
+            </td>
+            <td class="text-center" *ngIf="female">
+                <span class="brick brick-orange"></span>
+                <span class="brick brick-gray"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="circle circle--gray">
+                    0
+                </p>
+            </td>
+            <td class="text-center" *ngIf="male">
+                <span class="brick brick-gray"></span>
+            </td>
+            <td class="text-center" *ngIf="female">
+                <span class="brick brick-orange"></span>
+                <span class="brick brick-gray"></span>
+            </td>
+        </tr>
+    </table>
 
 </ion-content>
