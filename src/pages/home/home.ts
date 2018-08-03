@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import {ParkerenPage} from "../parkeren/parkeren";
+import { ParkerenPage } from "../parkeren/parkeren";
+import { ToiletPage } from "../toilet/toilet";
 
 @Component({
   selector: 'page-home',
@@ -14,5 +15,9 @@ export class HomePage {
 
   goToParkeren() {
       this.navCtrl.push(ParkerenPage);
+  }
+
+  goToToilet() {
+      this.navCtrl.push(ToiletPage);
   }
 }

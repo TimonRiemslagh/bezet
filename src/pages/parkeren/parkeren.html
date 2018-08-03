@@ -1,12 +1,12 @@
 <ion-content>
 
-    <div class="c-content c-content--background" style="background-image: url(assets/imgs/background-car.svg)">
+    <div class="c-content">
 
         <div class="o-container">
             <div class=" c-content__title c-content__title--sm">
                 <div class="o-flex o-flex-align-top o-flex-between">
                     <img class="c-content-background" src="assets/imgs/icon-car.svg" alt="">
-                    <a href="">
+                    <a (click)="goBack()">
                         <img class="icon-settings" src="assets/imgs/icon-arrow.svg" alt="">
                     </a>
                     <a href="">
@@ -19,13 +19,16 @@
         </div>
 
         <div class="o-container half-color">
-            <div class="c-widget c-widget--blue o-flex o-flex-align-center">
-                <p class="c-widget__title u-white">14</p>
-                <p class="c-widget__subtitle u-white">plaatsen<br>vrij</p>
+            <div class="c-widget c-widget--blue o-flex o-flex-align-center o-flex-between">
+                <div class="o-flex o-flex-align-center">
+                    <p class="c-widget__title u-white">14</p>
+                    <p class="c-widget__subtitle u-white">plaatsen<br>vrij</p>
+                </div>
+
+                <img src="assets/imgs/icon-car.svg" alt="">
             </div>
         </div>
     </div>
-
 
     <div class="map">
         <div class="o-flex o-flex-justify-center">
@@ -41,6 +44,7 @@
                     plaatsen<br>bezet
                 </p>
             </div>
+
 
             <div class="o-flex o-flex-align-center">
                 <p class="circle circle--yellow">
@@ -62,4 +66,5 @@
 
         </div>
     </div>
+
 </ion-content>

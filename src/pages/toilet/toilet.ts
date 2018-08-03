@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import {NavController} from "ionic-angular";
 
 @Component({
-    selector: 'page-parkeren',
-    templateUrl: 'parkeren.html'
+    selector: 'page-toilet',
+    templateUrl: 'toilet.html'
 })
-export class ParkerenPage {
+export class ToiletPage {
 
     constructor(public navCtrl: NavController) {
 
@@ -14,4 +14,5 @@ export class ParkerenPage {
     goBack() {
         this.navCtrl.pop();
     }
+
 }

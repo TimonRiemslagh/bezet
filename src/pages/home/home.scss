@@ -158,7 +158,6 @@ a {
 }
 
 .map-legend {
-    background-color: $background-gray;
     padding: 10px;
     position: absolute;
     bottom: 0;
@@ -197,4 +196,27 @@ a {
 .map {
     position: relative;
     padding-bottom: 40px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #ff7c7e;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    img {
+        margin-right: 10px;
+    }
+}
+
+.toilet-select {
+    background-color: white;
+    border-radius: 15.5px;
+    border: solid 1px #d6dce0;
 }
